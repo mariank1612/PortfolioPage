@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "@fontsource/inter";
+@import "@fontsource/geist-mono";
+
+@theme {
+  --color-slate-950: #0a0a0b;
+  --color-slate-200: #f4f4f5;
+  --color-teal-300: #00f0ff;
+
+  --font-inter: "Inter", sans-serif;
+  --font-geist-mono: "Geist Mono", monospace;
+}
+
+:root {
+  --background: #111729;
+  --foreground: #f4f4f5;
+  --accent: #00f0ff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+}
+
+code,
+pre {
+  font-family: var(--font-geist-mono);
+}

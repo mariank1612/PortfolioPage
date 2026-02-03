@@ -1,0 +1,134 @@
+{
+    "personalInfo": {
+        "name": "Marian Köhler",
+        "title": "Transformation Expert & AI Strategist",
+        "website": "https://www.mariankoehler.me",
+        "github": "https://github.com/mariank1612",
+        "linkedin": "www.linkedin.com/in/mariankoehler"
+    },
+    "tagline": "I architect strategic, data-driven systems\nfor streamlined organizational growth.",
+    "about": "I started my career in finance, spending a lot of time in spreadsheets and SAP - and quickly realized that the biggest bottlenecks weren’t “numbers problems,” but system and process problems. What interested me most was making tools work better for the people behind them, so teams could spend less time on manual work and more time on decisions that actually matter.\n\nToday, I’m a Senior Business Consultant at BearingPoint, working with clients in the Telco, Media, and Technology space on digital transformation, automation, and AI-driven initiatives. I’ve worked on everything from SAP S/4HANA finance transformations to building automation tools that reduce repetitive effort. But what motivates me isn’t technology in isolation, it’s the collaborative work of aligning stakeholders, designing solutions that stick, and helping teams adopt change with confidence.\n\nI’m driven by curiosity and a belief that questioning the status quo works best when it’s done to help everyone thrive. Technology moves fast, and I enjoy the challenge of picking up new tools - not to master them in isolation, but to find better ways to solve the problems we face together.\n\nCurrently, I’m exploring how agentic AI and prompt-driven development can transform the way we build and deploy business solutions.",
+    "experience": [
+        {
+            "company": "BearingPoint",
+            "link": "https://www.bearingpoint.com/de-de/",
+            "location": "Düsseldorf",
+            "role": "Senior Business Consultant (Telco, Media, Technology)",
+            "period": "02/2023 - Present",
+            "highlights": [
+                "Developed a support bot and automated ticket reporting; savings: 0.7 – 1 FTE",
+                "Development of six BearingPoint assets as Innovation Agent",
+                "(Associate) Project Lead for a global FI S/4HANA migration serving 2,000 users; managed international stakeholders for a 2-year go-live roadmap",
+                "Steering of consultants as Engagement Manager",
+                "Internal knowledge transfer to approx. 100 employees in the area of Automation & AI"
+            ],
+            "technologies": [
+                "MS Copilot Studio",
+                "MS Power Apps",
+                "S/4HANA",
+                "Signavio"
+            ]
+        },
+        {
+            "company": "Arvato Supply Chain Solutions",
+            "link": "https://arvato.com/de",
+            "location": "Gütersloh",
+            "role": "Project Manager Financial Solutions",
+            "period": "02/2019 – 02/2023",
+            "highlights": [
+                "Directed internal projects including automated invoice processing and strategic department realignment",
+                "Provided in-house consulting for RPA implementation",
+                "Led the migration process for 180 users across two German sites, overseeing ~1,000 test cases",
+                "Managed the technical and functional onboarding of new clients within the healthcare and technology industries",
+                "Supervised five dual-study students within the department"
+            ],
+            "technologies": [
+                "UiPath (RPA)",
+                "MS Power BI",
+                "S/4HANA",
+                "Jira"
+            ]
+        },
+        {
+            "company": "Benteler Business Services",
+            "link": "https://www.benteler.com/de/",
+            "location": "Paderborn",
+            "role": "Working Student Corporate IT",
+            "period": "02/2018 – 02/2019",
+            "highlights": [
+                "Supported the migration from IBM Lotus Notes to Office 365 for ~1,000 employees",
+                "Designed the company's first internal Robotic Process Automation (RPA) use case, resulting in 0.5 FTE savings",
+                "Performed asset management optimization and provided local IT support"
+            ],
+            "technologies": [
+                "Office 365",
+                "UiPath (RPA)"
+            ]
+        },
+        {
+            "company": "Diebold Nixdorf",
+            "link": "https://www.dieboldnixdorf.com/de-de/",
+            "location": "Paderborn",
+            "role": "Working Student Controlling",
+            "period": "09/2016 – 08/2017",
+            "highlights": [
+                "Responsible for budget planning, reporting, and forecasting for the Retail (Gas Stations) division",
+                "Provided management with data-driven analysis and strategic reports"
+            ],
+            "technologies": [
+                "Office 365",
+                "SAP ECC"
+            ]
+        },
+        {
+            "company": "August Storck",
+            "link": "https://www.storck.com/de",
+            "location": "Halle (Westfalen)",
+            "role": "Internship Treasury (Bachelor's Degree)",
+            "period": "08/2015 – 07/2016",
+            "highlights": [
+                "Built a group-wide cash flow statement within SAP ECC",
+                "Implemented MultiCash software to streamline global payment transactions"
+            ],
+            "technologies": [
+                "SAP ECC"
+            ]
+        }
+    ],
+    "certifications": [
+        "(Scrum Master & Product Owner - training in April 2026) (Agile Project Management)",
+        "Oxford Academy (Leadership Development Program (Oxford University)",
+        "PRINCE2 Foundation & Practitioner (Project Management)",
+        "Personal Development Program (Dale Carnegie Training)",
+        "Udacity Data Analyst Nanodegree (Bertelsmann Scholarship)",
+        "English C1 (University of Paderborn)",
+        "Chinese A2 (LSI Bochum)"
+    ],
+    "skills": {
+        "automation_ai": [
+            "MS Power Automate",
+            "MS Power Apps",
+            "MS Copilot Studio",
+            "n8n",
+            "UiPath (RPA)",
+            "Python"
+        ],
+        "data_bi": [
+            "MS Power BI",
+            "SAP Business Objects (BO)",
+            "SAP Analytics Cloud (SAC)",
+            "MySQL"
+        ],
+        "sap_erp": [
+            "S/4HANA",
+            "ECC"
+        ],
+        "project_management": [
+            "Office 365",
+            "Jira",
+            "Confluence",
+            "Signavio",
+            "Miro"
+        ]
+    }
+}
