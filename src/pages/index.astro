@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Experience from '../components/Experience.astro';
 import Certifications from '../components/Certifications.astro';
 import Skills from '../components/Skills.astro';
+import AboutSliders from '../components/AboutSliders';
 import resume from '../../resume.json';
 
 const { personalInfo, tagline } = resume;
@@ -91,6 +92,8 @@ const { personalInfo, tagline } = resume;
             <p>
                 Currently, I’m exploring how agentic AI and prompt-driven development can transform the way we build and deploy business solutions.
             </p>
+            
+            <AboutSliders client:visible />
         </div>
     </section>
 
