@@ -41,3 +41,9 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## 📈 SEO & Sitemaps
+
+This project includes `@astrojs/sitemap` to automatically generate a sitemap on every build.
+- **Sitemap Index**: `https://mariankoehler.me/sitemap-index.xml`
+- **Robots.txt**: Includes the sitemap location for search engine crawlers.
