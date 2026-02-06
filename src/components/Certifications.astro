@@ -4,21 +4,56 @@ import resume from '../../resume.json';
 const { certifications } = resume;
 ---
 
-<div class="group relative grid transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-  <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-  
-  <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-[-0.02em] text-zinc-500 sm:col-span-2">
-    Certifications
-  </header>
-  
-  <div class="z-10 sm:col-span-6">
-    <ul class="space-y-2">
-      {certifications.map((cert) => (
-        <li class="flex items-start text-base leading-relaxed tracking-[-0.02em] text-slate-400">
-          <span class="mr-2 mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent/50"></span>
-          <span class="text-slate-200">{cert}</span>
-        </li>
-      ))}
-    </ul>
-  </div>
+<div class="flex flex-col gap-10">
+  {certifications.map((cert) => (
+    <div class="group relative flex items-start transition-all lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+      <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+      
+      <!-- Icon Column -->
+      <div class="z-10 mr-6 mt-1 flex-shrink-0 text-slate-500 transition-colors group-hover:text-slate-200">
+        {cert.icon === 'award' && (
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-award">
+            <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
+            <circle cx="12" cy="8" r="6"></circle>
+          </svg>
+        )}
+        {cert.icon === 'graduation-cap' && (
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap">
+            <path d="M21.42 10.922 12 4.667 2.58 10.922l8.97 5.96a1 1 0 0 0 1.1 0l8.77-5.96Z" />
+            <path d="M6 12.723v4.857c0 1.104 2.686 2 6 2s6-.896 6-2v-4.857" />
+            <path d="M11.99 12.5v1" />
+          </svg>
+        )}
+        {cert.icon === 'globe' && (
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+            <path d="M2 12h20" />
+          </svg>
+        )}
+      </div>
+
+      <!-- Content Column -->
+      <div class="z-10 flex-1">
+        <div class="flex items-start justify-between">
+          <h3 class="font-bold leading-tight text-slate-200 text-base tracking-[-0.02em]">
+            {cert.title}
+          </h3>
+          {cert.tag && (
+            <span class="ml-4 flex-shrink-0 rounded-full border border-[rgb(100,255,218)]/30 bg-[rgb(100,255,218)]/10 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-[rgb(100,255,218)] lg:text-[11px]">
+              {cert.tag}
+            </span>
+          )}
+        </div>
+        <p class="mt-1 text-sm leading-relaxed text-slate-400">
+          {cert.subtitle}
+          {cert.details && (
+            <span class="ml-2 text-slate-500">
+              — {cert.details}
+            </span>
+          )}
+        </p>
+      </div>
+    </div>
+  ))}
 </div>

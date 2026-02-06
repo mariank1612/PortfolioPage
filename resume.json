@@ -6,7 +6,7 @@
         "github": "https://github.com/mariank1612",
         "linkedin": "www.linkedin.com/in/mariankoehler"
     },
-    "tagline": "I architect strategic, data-driven systems\nfor streamlined organizational growth.",
+    "tagline": "I lead strategic projects that transform organizational\ncomplexity into clarity and measurable impact",
     "about": "I started my career in finance, spending a lot of time in spreadsheets and SAP - and quickly realized that the biggest bottlenecks weren’t “numbers problems,” but system and process problems. What interested me most was making tools work better for the people behind them, so teams could spend less time on manual work and more time on decisions that actually matter.\n\nToday, I’m a Senior Business Consultant at BearingPoint, working with clients in the Telco, Media, and Technology space on digital transformation, automation, and AI-driven initiatives. I’ve worked on everything from SAP S/4HANA finance transformations to building automation tools that reduce repetitive effort. But what motivates me isn’t technology in isolation, it’s the collaborative work of aligning stakeholders, designing solutions that stick, and helping teams adopt change with confidence.\n\nI’m driven by curiosity and a belief that questioning the status quo works best when it’s done to help everyone thrive. Technology moves fast, and I enjoy the challenge of picking up new tools - not to master them in isolation, but to find better ways to solve the problems we face together.\n\nCurrently, I’m exploring how agentic AI and prompt-driven development can transform the way we build and deploy business solutions.",
     "experience": [
         {
@@ -17,7 +17,7 @@
             "period": "02/2023 - Present",
             "highlights": [
                 "Developed a support bot and automated ticket reporting; savings: 0.7 – 1 FTE",
-                "Development of six BearingPoint assets as Innovation Agent",
+                "Contributed to the development of six BearingPoint assets as an Innovation Agent",
                 "(Associate) Project Lead for a global FI S/4HANA migration serving 2,000 users; managed international stakeholders for a 2-year go-live roadmap",
                 "Steering of consultants as Engagement Manager",
                 "Internal knowledge transfer to approx. 100 employees in the area of Automation & AI"
@@ -96,39 +96,76 @@
         }
     ],
     "certifications": [
-        "(Scrum Master & Product Owner - training in April 2026) Agile Project Management",
-        "Oxford Academy (Leadership Development Program (Oxford University)",
-        "PRINCE2 Foundation & Practitioner (Project Management)",
-        "Personal Development Program (Dale Carnegie Training)",
-        "Udacity Data Analyst Nanodegree (Bertelsmann Scholarship)",
-        "English C1 (University of Paderborn)",
-        "Chinese A2 (LSI Bochum)"
+        {
+            "title": "Agile Project Management",
+            "subtitle": "Scrum Master & Product Owner",
+            "details": "Training in April 2026",
+            "tag": "UPCOMING",
+            "icon": "award"
+        },
+        {
+            "title": "Oxford Academy Leadership Program",
+            "subtitle": "Oxford University",
+            "icon": "graduation-cap"
+        },
+        {
+            "title": "Project Management",
+            "subtitle": "PRINCE2 Foundation & Practitioner",
+            "icon": "award"
+        },
+        {
+            "title": "Personal Development Program",
+            "subtitle": "Dale Carnegie Training",
+            "icon": "graduation-cap"
+        },
+        {
+            "title": "Data Analyst Nanodegree",
+            "subtitle": "Udacity (Bertelsmann Scholarship)",
+            "icon": "award"
+        },
+        {
+            "title": "English C1 Proficiency",
+            "subtitle": "University of Paderborn",
+            "icon": "globe"
+        },
+        {
+            "title": "Chinese A2 Proficiency",
+            "subtitle": "LSI Bochum",
+            "icon": "globe"
+        }
     ],
     "skills": {
-        "automation_ai": [
+        "automation": [
             "MS Power Automate",
             "MS Power Apps",
-            "MS Copilot Studio",
             "n8n",
-            "UiPath (RPA)",
+            "UiPath (RPA)"
+        ],
+        "ai": [
+            "MS Copilot Studio",
+            "Google Antigravity",
+            "Claude Code",
             "Python"
         ],
         "data_bi": [
             "MS Power BI",
+            "MySQL",
             "SAP Business Objects (BO)",
-            "SAP Analytics Cloud (SAC)",
-            "MySQL"
+            "SAP Analytics Cloud (SAC)"
         ],
         "sap_erp": [
             "S/4HANA",
-            "ECC"
+            "ECC / R/3"
         ],
         "project_management": [
             "Office 365",
             "Jira",
             "Confluence",
-            "Signavio",
             "Miro"
+        ],
+        "process_management": [
+            "SAP Signavio",
+            "ARIS"
         ]
     }
 }

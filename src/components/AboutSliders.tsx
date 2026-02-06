@@ -20,7 +20,7 @@ const AboutSliders: React.FC = () => {
         label="Vacation in the mountains or at the beach?"
         leftIcon={Mountain}
         rightIcon={Waves}
-        myPreferenceValue={15}
+        myPreferenceValue={40}
         accentColor="#0ea5e9"
         revealImage="/watzmann.jpg"
         revealLabel="Watzmann 2025"

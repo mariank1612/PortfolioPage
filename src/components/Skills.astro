@@ -4,18 +4,27 @@ import resume from '../../resume.json';
 const { skills } = resume;
 
 const sectionTitles: Record<string, string> = {
-    automation_ai: 'Automation & AI',
+    automation: 'Automation',
+    ai: 'AI',
     data_bi: 'Data & BI',
     sap_erp: 'SAP ERP',
-    project_management: 'Project Management'
+    project_management: 'Project Management',
+    process_management: 'Process Management'
 };
 
-const categories = Object.keys(skills) as Array<keyof typeof skills>;
+const categories = [
+    'automation',
+    'ai',
+    'data_bi',
+    'sap_erp',
+    'project_management',
+    'process_management'
+] as const;
 ---
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:auto-rows-fr">
     {categories.map((category) => (
-        <div class="p-6 border border-white/10 rounded-lg hover:border-accent/30 transition-colors bg-white/5">
+        <div class="flex flex-col h-full p-6 border border-white/10 rounded-lg hover:border-accent/30 transition-colors bg-white/5">
             <h3 class="text-xl font-semibold text-slate-200 mb-4">{sectionTitles[category] || category}</h3>
             <ul class="flex flex-wrap gap-2">
                 {skills[category].map((skill: string) => (
