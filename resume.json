@@ -16,17 +16,18 @@
             "role": "Senior Business Consultant (Telco, Media, Technology)",
             "period": "02/2023 - Present",
             "highlights": [
+                "Steering of consultants as Engagement Manager",
+                "Project Lead of a vertical stream for a global FI S/4HANA migration serving 2,000 users; managed international stakeholders for a 2-year go-live roadmap",
                 "Developed a support bot and automated ticket reporting; savings: 0.7 – 1 FTE",
                 "Contributed to the development of six BearingPoint assets as an Innovation Agent",
-                "(Associate) Project Lead for a global FI S/4HANA migration serving 2,000 users; managed international stakeholders for a 2-year go-live roadmap",
-                "Steering of consultants as Engagement Manager",
                 "Internal knowledge transfer to approx. 100 employees in the area of Automation & AI"
             ],
             "technologies": [
                 "MS Copilot Studio",
                 "MS Power Apps",
                 "S/4HANA",
-                "Signavio"
+                "SAP Signavio",
+                "Claude Code"
             ]
         },
         {
@@ -46,7 +47,8 @@
                 "UiPath (RPA)",
                 "MS Power BI",
                 "S/4HANA",
-                "Jira"
+                "Jira",
+                "Confluence"
             ]
         },
         {
@@ -117,11 +119,6 @@
             "title": "Personal Development Program",
             "subtitle": "Dale Carnegie Training",
             "icon": "graduation-cap"
-        },
-        {
-            "title": "Data Analyst Nanodegree",
-            "subtitle": "Udacity (Bertelsmann Scholarship)",
-            "icon": "award"
         },
         {
             "title": "English C1 Proficiency",

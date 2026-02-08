@@ -17,7 +17,7 @@ const AboutSliders: React.FC = () => {
     <div className="w-full max-w-xl space-y-10 mx-auto mt-12">
       {/* Slider 1: Vacation */}
       <PreferenceSlider
-        label="Vacation in the mountains or at the beach?"
+        label="Mountain or beach vacation?"
         leftIcon={Mountain}
         rightIcon={Waves}
         myPreferenceValue={40}

@@ -52,6 +52,18 @@ const { title } = Astro.props;
                 });
             }
 
+            // Smooth scroll to top when clicking name
+            const nameLink = document.getElementById('name-link');
+            if (nameLink) {
+                nameLink.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+
             // Scroll Spy - Improved to handle long sections
             const sections = document.querySelectorAll('section[id]');
             const navLinks = document.querySelectorAll('.nav-link');
