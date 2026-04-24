@@ -7,7 +7,7 @@
         "linkedin": "www.linkedin.com/in/mariankoehler"
     },
     "tagline": "I lead strategic projects that transform organizational\ncomplexity into clarity and measurable impact.",
-    "about": "I started my career in finance, spending a lot of time in spreadsheets and SAP - and quickly realized that the biggest bottlenecks weren’t “numbers problems,” but system and process problems. What interested me most was making tools work better for the people behind them, so teams could spend less time on manual work and more time on decisions that actually matter.\n\nToday, I’m a Senior Business Consultant at BearingPoint, working with clients in the Telco, Media, and Technology space on digital transformation, automation, and AI-driven initiatives. I’ve worked on everything from SAP S/4HANA finance transformations to building automation tools that reduce repetitive effort. But what motivates me isn’t technology in isolation, it’s the collaborative work of aligning stakeholders, designing solutions that stick, and helping teams adopt change with confidence.\n\nI’m driven by curiosity and a belief that questioning the status quo works best when it’s done to help everyone thrive. Technology moves fast, and I enjoy the challenge of picking up new tools - not to master them in isolation, but to find better ways to solve the problems we face together.\n\nCurrently, I’m exploring how agentic AI and prompt-driven development can transform the way we build and deploy business solutions.",
+    "about": "Looking back at my career, three themes have been constant: Technology, Finance, and Transformation. They shaped how I started in industry, how I moved into consulting, and how I approach the work I do today.\n\nI began in finance and operations at Arvato Supply Chain Solutions, where I led my first large-scale program - an S/4HANA migration across two sites - and learned that most bottlenecks in a business aren't numbers problems, they're system and process problems. That experience pulled me toward the intersection of finance, IT and the people who have to make both work in practice.\n\nToday, as a Senior Business Consultant at BearingPoint in the Telco, Media and Technology practice, I lead transformation programs where those three threads come together. My work spans process redesign and change management, program and project leadership across initiatives, and building automation and AI solutions that reduce manual effort so teams can focus on decisions that matter. I'm also part of the core team of BearingPoint's AI Networks initiative, shaping our AI solution portfolio and bringing it to clients. In parallel, I'm exploring how agentic AI and prompt-driven development change the way business solutions get built and deployed.\n\nWhat I care about across all of this isn't technology in isolation. It's aligning stakeholders, designing transformations that stick, and helping organizations adopt change with confidence.",
     "experience": [
         {
             "company": "BearingPoint",
@@ -16,18 +16,20 @@
             "role": "Senior Business Consultant (Telco, Media, Technology)",
             "period": "02/2023 - Present",
             "highlights": [
-                "Steering of consultants as Engagement Manager",
-                "Project Lead of a vertical stream for a global FI S/4HANA migration serving 2,000 users; managed international stakeholders for a 2-year go-live roadmap",
-                "Developed a support bot and automated ticket reporting; savings: 0.7 – 1 FTE",
-                "Contributed to the development of six BearingPoint assets as an Innovation Agent",
-                "Internal knowledge transfer to approx. 100 employees in the area of Automation & AI"
+                "Led process and system transformation workstreams within a multi-year FI S/4HANA migration for 2.000 users across Germany; delivered on time",
+                "Designed and rolled out a change management program including an AI-based support bot and automated ticket reporting, reducing support effort by 0.7 to 1 FTE",
+                "Held full delivery ownership as Engagement Manager for a two-consultant team; coordinated cross-functional workstreams across business, IT, and operations",
+                "Modeled, documented, and optimized client IT landscapes through Enterprise Architecture Management, enabling transparency and informed decision-making",
+                "Contributed to the development of six BearingPoint IP assets as an Innovation Agent",
+                "Core team member of BearingPoint's AI Networks initiative; co-developing the AI solution portfolio and leading go-to-market activities to position offerings with clients",
+                "Regular internal knowledge transfer sessions for ~100 colleagues across topics such as Automation & AI"
             ],
             "technologies": [
                 "MS Copilot Studio",
                 "MS Power Apps",
                 "S/4HANA",
                 "SAP Signavio",
-                "Claude Code"
+                "SAP LeanIX"
             ]
         },
         {
@@ -37,11 +39,11 @@
             "role": "Project Manager Financial Solutions",
             "period": "02/2019 – 02/2023",
             "highlights": [
-                "Directed internal projects including automated invoice processing and strategic department realignment",
-                "Provided in-house consulting for RPA implementation",
-                "Led the migration process for 180 users across two German sites, overseeing ~1,000 test cases",
-                "Managed the technical and functional onboarding of new clients within the healthcare and technology industries",
-                "Supervised five dual-study students within the department"
+                "Led FI S/4HANA migration across two German sites for 180 users; managed ~1.000 test cases through to Go-Live",
+                "Delivered internal optimization projects, including automated invoice posting and strategic realignment of the Financial Services department",
+                "Inhouse consulting lead for two RPA use cases, from scoping to implementation",
+                "Led end-to-end onboarding of new clients in Healthcare and Tech, covering system configuration and functional setup",
+                "Responsible for training and development of five dual-study students across rotations within the department"
             ],
             "technologies": [
                 "UiPath (RPA)",
@@ -58,7 +60,7 @@
             "role": "Working Student Corporate IT",
             "period": "02/2018 – 02/2019",
             "highlights": [
-                "Supported the migration from IBM Lotus Notes to Office 365 for ~1,000 employees",
+                "Supported the migration from IBM Lotus Notes to Office 365 for ~1.000 employees",
                 "Designed the company's first internal Robotic Process Automation (RPA) use case, resulting in 0.5 FTE savings",
                 "Performed asset management optimization and provided local IT support"
             ],
@@ -89,10 +91,11 @@
             "role": "Internship Treasury (Bachelor's Degree)",
             "period": "08/2015 – 07/2016",
             "highlights": [
-                "Built a group-wide cash flow statement within SAP ECC",
+                "Built a group-wide cash flow statement within SAP",
                 "Implemented MultiCash software to streamline global payment transactions"
             ],
             "technologies": [
+                "Office 365",
                 "SAP ECC"
             ]
         }
@@ -101,7 +104,7 @@
         {
             "title": "Agile Project Management",
             "subtitle": "Scrum Master & Product Owner",
-            "details": "Training in April 2026",
+            "details": "Training in May 2026",
             "tag": "UPCOMING",
             "icon": "award"
         },
@@ -142,7 +145,7 @@
             "MS Copilot Studio",
             "Google Antigravity",
             "Claude Code",
-            "Python"
+            "Python Scripting"
         ],
         "data_bi": [
             "MS Power BI",
@@ -162,7 +165,8 @@
         ],
         "process_management": [
             "SAP Signavio",
-            "ARIS"
+            "Celonis",
+            "LeanIX"
         ]
     }
 }
