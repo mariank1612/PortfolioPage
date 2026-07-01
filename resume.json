@@ -1,7 +1,7 @@
 {
     "personalInfo": {
         "name": "Marian Köhler",
-        "title": "Project Manager & Transformation Expert",
+        "title": "Senior Consultant Strategy & Innovation",
         "website": "https://www.mariankoehler.me",
         "github": "https://github.com/mariank1612",
         "linkedin": "www.linkedin.com/in/mariankoehler"
@@ -65,7 +65,7 @@
                 "Performed asset management optimization and provided local IT support"
             ],
             "technologies": [
-                "Office 365",
+                "Microsoft 365",
                 "UiPath (RPA)"
             ]
         },
@@ -104,7 +104,7 @@
         {
             "title": "Agile Project Management",
             "subtitle": "Scrum Master & Product Owner",
-            "details": "Training in May 2026",
+            "details": "Training in July 2026",
             "tag": "UPCOMING",
             "icon": "award"
         },
@@ -158,10 +158,9 @@
             "ECC / R/3"
         ],
         "project_management": [
-            "Office 365",
+            "Microsoft 365",
             "Jira",
-            "Confluence",
-            "Miro"
+            "Confluence"
         ],
         "process_management": [
             "SAP Signavio",
